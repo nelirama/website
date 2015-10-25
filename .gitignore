@@ -2,3 +2,5 @@
 .idea
 node_modules
 Gemfile.lock
+bower_components
+build
