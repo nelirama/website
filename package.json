@@ -2,5 +2,8 @@
   "name": "gulp-build",
   "version": "0.0.1",
   "description": "The build process of nelirama with Gulp.js",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
