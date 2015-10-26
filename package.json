@@ -3,9 +3,39 @@
   "version": "0.0.1",
   "description": "The build process of nelirama with Gulp.js",
   "private": true,
+  "browser": {
+    "modernizr": "./bower_components/modernizr/src/modernizr.js",
+    "jquery": "./bower_components/jquery/dist/jquery.js"
+  },
+  "browserify-shim": {
+    "modernizr": "Modernizr",
+    "jquery": "$"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
   "devDependencies": {
     "browser-sync": "^2.9.11",
+    "browserify": "^11.2.0",
+    "browserify-shim": "^3.8.10",
+    "del": "^2.0.2",
     "gulp": "^3.9.0",
-    "require-dir": "^0.3.0"
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-changed": "^1.0.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-ruby-sass": "^2.0.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "pretty-hrtime": "^1.0.1",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.4",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
   }
 }
