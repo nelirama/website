@@ -16,6 +16,10 @@ Nelirama will be a nice website
 **3. Install bundler**
 
     gem install bundler
+    
+**4. Install bower globally
+
+    npm install -g bower
 
 **4. Install gulp globally and everything the project needs**
 
@@ -24,6 +28,8 @@ Nelirama will be a nice website
     npm install
     
     bundle install
+    
+    bower install
     
 ## Getting started
 
